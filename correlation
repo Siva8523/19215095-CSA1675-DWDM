@@ -1,0 +1,4 @@
+data<-read.csv("C:\\DWDM\\diabetes.csv")
+data<-table(data $Age,data $Insulin)
+data
+chisq.test(data)
