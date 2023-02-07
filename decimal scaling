@@ -1,0 +1,4 @@
+data<-read.csv("C:\\DWDM\\diabetes.csv")
+A=c(data$Age)
+decimalscaling=(A/100)
+decimalscaling
